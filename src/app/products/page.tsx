@@ -1,7 +1,10 @@
-
+import { ProductCardComponent } from "@/components/products/ProductCardComponent";
+import ProductCardListComponent from "@/components/products/ProductCardListComponent";
 
 export default function Product() {
-    return (
-        <h1>This is products page</h1>
-    )
+  return (
+    <section>
+      <ProductCardListComponent/>
+    </section>
+  );
 }
